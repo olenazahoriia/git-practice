@@ -1,0 +1,99 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+      background-color: #f3e8ff;
+      max-width: 1000px;
+      margin: 0 auto;
+}
+
+h1 {
+    color: rgb(9, 27, 224);
+    text-align: center;
+    text-decoration: underline;
+}
+h2, h3 {
+    color: red;
+    text-align: center;
+}
+p {
+    font-size: 18px;
+}
+ul {
+    line-height: 1.6;
+}
+h2 {
+    text-align: center;
+    line-height: 1.5;
+}
+.album-list li {
+    color: purple;
+ }   
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6e0f0;
+}
+.back {
+    text-align: center;
+    margin-top: 30px;
+}
+tr:hover {
+    background-color: #e6e0f0;
+}
+.gallery {
+    text-align: center;
+}
+.gallery img {
+    margin: 15px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.gallery img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.4);
+}
+.back {
+    text-align: center;
+    margin-top: 30px;
+}
+.nav-menu a {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+.nav-menu a:hover {
+    transform: scale(1.1);
+}
